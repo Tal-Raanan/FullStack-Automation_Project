@@ -1,0 +1,409 @@
+{
+  "uid" : "43d64c51c6217108",
+  "name" : "Test03 - Verify New User",
+  "fullName" : "sanity.GrafanaWeb.test03_createNewUser",
+  "historyId" : "fa40e3b69d71af2e0bcfcd44afa6322b",
+  "time" : {
+    "start" : 1637583671239,
+    "stop" : 1637583673324,
+    "duration" : 2085
+  },
+  "description" : "This test verifies a new user has been added successfully",
+  "descriptionHtml" : "<p>This test verifies a new user has been added successfully</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1637583659903,
+      "stop" : 1637583667110,
+      "duration" : 7207
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1637583671226,
+      "stop" : 1637583671235,
+      "duration" : 9
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "This test verifies a new user has been added successfully",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Mouse Hover Element, For Two Elements",
+      "time" : {
+        "start" : 1637583671290,
+        "stop" : 1637583671669,
+        "duration" : 379
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elem1",
+        "value" : "[[ChromeDriver: chrome on WINDOWS (8f6b132b27ab00c814512a2794e59891)] -> xpath: //div[@Class=\"sidemenu-item dropdown\"][7]]"
+      }, {
+        "name" : "elem2",
+        "value" : "[[ChromeDriver: chrome on WINDOWS (8f6b132b27ab00c814512a2794e59891)] -> xpath: //a[@href='/admin/users']]"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Business Flow: Create New User",
+      "time" : {
+        "start" : 1637583671669,
+        "stop" : 1637583673013,
+        "duration" : 1344
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click On Element",
+        "time" : {
+          "start" : 1637583671959,
+          "stop" : 1637583672151,
+          "duration" : 192
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (8f6b132b27ab00c814512a2794e59891)] -> css selector: span[class='css-1mhnkuh']]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Update Text Element",
+        "time" : {
+          "start" : 1637583672180,
+          "stop" : 1637583672327,
+          "duration" : 147
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (8f6b132b27ab00c814512a2794e59891)] -> css selector: input[name='name']]"
+        }, {
+          "name" : "text",
+          "value" : "John"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Update Text Element",
+        "time" : {
+          "start" : 1637583672356,
+          "stop" : 1637583672513,
+          "duration" : 157
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (8f6b132b27ab00c814512a2794e59891)] -> css selector: input[name='email']]"
+        }, {
+          "name" : "text",
+          "value" : "johnsmith@gmail.com"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Update Text Element",
+        "time" : {
+          "start" : 1637583672538,
+          "stop" : 1637583672670,
+          "duration" : 132
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (8f6b132b27ab00c814512a2794e59891)] -> css selector: input[name='login']]"
+        }, {
+          "name" : "text",
+          "value" : "JohnS"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Update Text Element",
+        "time" : {
+          "start" : 1637583672694,
+          "stop" : 1637583672842,
+          "duration" : 148
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (8f6b132b27ab00c814512a2794e59891)] -> css selector: input[name='password']]"
+        }, {
+          "name" : "text",
+          "value" : "john1954"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Click On Element",
+        "time" : {
+          "start" : 1637583672864,
+          "stop" : 1637583673013,
+          "duration" : 149
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (8f6b132b27ab00c814512a2794e59891)] -> css selector: button[class='css-5tn967-button']]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "John"
+      }, {
+        "name" : "email",
+        "value" : "johnsmith@gmail.com"
+      }, {
+        "name" : "username",
+        "value" : "JohnS"
+      }, {
+        "name" : "pass",
+        "value" : "john1954"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 6,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Verify Element Is Invisible",
+      "time" : {
+        "start" : 1637583673102,
+        "stop" : 1637583673145,
+        "duration" : 43
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elem",
+        "value" : "[[ChromeDriver: chrome on WINDOWS (8f6b132b27ab00c814512a2794e59891)] -> css selector: a[title='JohnS']]"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Verify Number Of Elements",
+      "time" : {
+        "start" : 1637583673169,
+        "stop" : 1637583673230,
+        "duration" : 61
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elems",
+        "value" : "[[[ChromeDriver: chrome on WINDOWS (8f6b132b27ab00c814512a2794e59891)] -> xpath: //*[@id=\"reactRoot\"]/div/div[2]/div[3]/div/div[1]/div/div[2]/div[2]/table/tbody/tr], [[ChromeDriver: chrome on WINDOWS (8f6b132b27ab00c814512a2794e59891)] -> xpath: //*[@id=\"reactRoot\"]/div/div[2]/div[3]/div/div[1]/div/div[2]/div[2]/table/tbody/tr]]"
+      }, {
+        "name" : "expected",
+        "value" : "2"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 10,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1637583673327,
+      "stop" : 1637583673574,
+      "duration" : 247
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "closeSession",
+    "time" : {
+      "start" : 1637583706837,
+      "stop" : 1637583707448,
+      "duration" : 611
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sanity.GrafanaWeb"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity.GrafanaWeb"
+  }, {
+    "name" : "testMethod",
+    "value" : "test03_createNewUser"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Web Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "sanity.GrafanaWeb"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-33T2KTK9"
+  }, {
+    "name" : "thread",
+    "value" : "23124@LAPTOP-33T2KTK9.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "web"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "b8c9a25ffe77e0d9",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/29/allure/#testresult/b8c9a25ffe77e0d9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637583421405,
+          "stop" : 1637583424103,
+          "duration" : 2698
+        }
+      }, {
+        "uid" : "c0b509139b293032",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/28/allure/#testresult/c0b509139b293032",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637582629063,
+          "stop" : 1637582632223,
+          "duration" : 3160
+        }
+      }, {
+        "uid" : "51c9d3fc84a3ed46",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/26/allure/#testresult/51c9d3fc84a3ed46",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637513490327,
+          "stop" : 1637513493315,
+          "duration" : 2988
+        }
+      }, {
+        "uid" : "e4ed6f4b5f70ffc7",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/25/allure/#testresult/e4ed6f4b5f70ffc7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637513323126,
+          "stop" : 1637513326014,
+          "duration" : 2888
+        }
+      }, {
+        "uid" : "59449152e83d4e4b",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/24/allure/#testresult/59449152e83d4e4b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637219256872,
+          "stop" : 1637219260078,
+          "duration" : 3206
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "43d64c51c6217108.json",
+  "parameterValues" : [ "web" ]
+}

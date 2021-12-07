@@ -1,0 +1,364 @@
+{
+  "uid" : "50f31f19a480f635",
+  "name" : "Test04 - Delete Team And Verify",
+  "fullName" : "sanity.GrafanaAPI.test04_deleteTeamAndVerify",
+  "historyId" : "b4aea31047bfffb35cb539f4688b0cb7",
+  "time" : {
+    "start" : 1637583663299,
+    "stop" : 1637583663434,
+    "duration" : 135
+  },
+  "description" : "This test deletes a team in Grafana and verifies it",
+  "descriptionHtml" : "<p>This test deletes a team in Grafana and verifies it</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1637583655717,
+      "stop" : 1637583659852,
+      "duration" : 4135
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1637583663295,
+      "stop" : 1637583663295,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "This test deletes a team in Grafana and verifies it",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Business Flow: Get Team Property",
+      "time" : {
+        "start" : 1637583663300,
+        "stop" : 1637583663367,
+        "duration" : 67
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get Data From Server",
+        "time" : {
+          "start" : 1637583663301,
+          "stop" : 1637583663345,
+          "duration" : 44
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "paramValues",
+          "value" : "/api/teams/search"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Extract Value From JSON Format",
+        "time" : {
+          "start" : 1637583663345,
+          "stop" : 1637583663367,
+          "duration" : 22
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "response",
+          "value" : "io.restassured.internal.RestAssuredResponseImpl@758d4aa9"
+        }, {
+          "name" : "path",
+          "value" : "teams[1].id"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "jPath",
+        "value" : "teams[1].id"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Business Flow: Delete An Existing Team In Grafana",
+      "time" : {
+        "start" : 1637583663367,
+        "stop" : 1637583663396,
+        "duration" : 29
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Delete Data From Server",
+        "time" : {
+          "start" : 1637583663367,
+          "stop" : 1637583663396,
+          "duration" : 29
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "id",
+          "value" : "11"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "id",
+        "value" : "11"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Business Flow: Get Team Property",
+      "time" : {
+        "start" : 1637583663396,
+        "stop" : 1637583663434,
+        "duration" : 38
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get Data From Server",
+        "time" : {
+          "start" : 1637583663396,
+          "stop" : 1637583663419,
+          "duration" : 23
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "paramValues",
+          "value" : "/api/teams/search"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Extract Value From JSON Format",
+        "time" : {
+          "start" : 1637583663420,
+          "stop" : 1637583663434,
+          "duration" : 14
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "response",
+          "value" : "io.restassured.internal.RestAssuredResponseImpl@3c6b300a"
+        }, {
+          "name" : "path",
+          "value" : "totalCount"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "jPath",
+        "value" : "totalCount"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Verify Text Similarity",
+      "time" : {
+        "start" : 1637583663434,
+        "stop" : 1637583663434,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "1"
+      }, {
+        "name" : "expected",
+        "value" : "1"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 9,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1637583663436,
+      "stop" : 1637583663436,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "closeSession",
+    "time" : {
+      "start" : 1637583663440,
+      "stop" : 1637583663442,
+      "duration" : 2
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sanity.GrafanaAPI"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity.GrafanaAPI"
+  }, {
+    "name" : "testMethod",
+    "value" : "test04_deleteTeamAndVerify"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Web Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "sanity.GrafanaAPI"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-33T2KTK9"
+  }, {
+    "name" : "thread",
+    "value" : "17504@LAPTOP-33T2KTK9.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "api"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "f8cb0f52c2b9a0ef",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/29/allure/#testresult/f8cb0f52c2b9a0ef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637583412087,
+          "stop" : 1637583412207,
+          "duration" : 120
+        }
+      }, {
+        "uid" : "ff004b4d864ecec5",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/28/allure/#testresult/ff004b4d864ecec5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637582622956,
+          "stop" : 1637582623153,
+          "duration" : 197
+        }
+      }, {
+        "uid" : "62dc276b8002f453",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/26/allure/#testresult/62dc276b8002f453",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637513287863,
+          "stop" : 1637513288127,
+          "duration" : 264
+        }
+      }, {
+        "uid" : "709ee9ec0c0c6fa5",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/25/allure/#testresult/709ee9ec0c0c6fa5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637513287863,
+          "stop" : 1637513288127,
+          "duration" : 264
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "50f31f19a480f635.json",
+  "parameterValues" : [ "api" ]
+}
