@@ -50,7 +50,7 @@ The project is an example of infrastructure for automation testing of different 
 ### Tests Execution:
 > Each of the applications has a few tests for demonstration purpose.
 These tests can be developed very simply, thanks to a well stabled infrastructure.
-[[Sanity Tests]](https://github.com/Tal-Raanan/FullStack-Automation_Project/tree/master/src/test/java/sanity)
+[(Sanity Tests)](https://github.com/Tal-Raanan/FullStack-Automation_Project/tree/master/src/test/java/sanity)
 ### _Known Issues:_
 Sometimes, a situation of conflict between dependencies may be arised, due to the use of several applications in the same methods.
 Hence, the project is for DEMO purpose only. In production it should be divided into several projects.
