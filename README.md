@@ -45,7 +45,10 @@ The project is an example of infrastructure for automation testing of different 
 * MySQL Free Online DB - Used for login to Grafana web page
 * [Jenkins](https://www.jenkins.io/) - For tests execution
 * REST Assured - For API testing
-* [Allure Reports](http://allure.qatools.ru/) - As the main reporting system
+* [Allure Reports](http://allure.qatools.ru/) - As the main reporting system:
+
+![This is an image](/allure-results/Report-Failure.png)
+
 
 ### Tests Execution:
 > Each of the applications has a few tests for demonstration purpose.
