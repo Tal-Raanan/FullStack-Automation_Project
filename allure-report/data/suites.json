@@ -5,129 +5,19 @@
     "children" : [ {
       "name" : "Web Tests",
       "children" : [ {
-        "name" : "sanity.TodoListElectron",
-        "children" : [ {
-          "name" : "Test01 - Add And Verify New Task",
-          "uid" : "a5d06bc5408e911e",
-          "parentUid" : "1e4e7d74a2a69fb4082a62f67763619c",
-          "status" : "passed",
-          "time" : {
-            "start" : 1637583658319,
-            "stop" : 1637583658930,
-            "duration" : 611
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "newPassed" : false,
-          "newBroken" : false,
-          "retriesCount" : 0,
-          "retriesStatusChange" : false,
-          "parameters" : [ "electron" ]
-        }, {
-          "name" : "Test02 - Add And Verify New Tasks",
-          "uid" : "185ca3fb55725cb3",
-          "parentUid" : "1e4e7d74a2a69fb4082a62f67763619c",
-          "status" : "passed",
-          "time" : {
-            "start" : 1637583664155,
-            "stop" : 1637583665730,
-            "duration" : 1575
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "newPassed" : false,
-          "newBroken" : false,
-          "retriesCount" : 0,
-          "retriesStatusChange" : false,
-          "parameters" : [ "electron" ]
-        } ],
-        "uid" : "1e4e7d74a2a69fb4082a62f67763619c"
-      }, {
-        "name" : "sanity.GrafanaAPI",
-        "children" : [ {
-          "name" : "Test01 - Get Team From Grafana",
-          "uid" : "681ced0d56e6858c",
-          "parentUid" : "dc43bd6f2f48ae6031f6b1098e92a36c",
-          "status" : "passed",
-          "time" : {
-            "start" : 1637583660080,
-            "stop" : 1637583662775,
-            "duration" : 2695
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "newPassed" : false,
-          "newBroken" : false,
-          "retriesCount" : 0,
-          "retriesStatusChange" : false,
-          "parameters" : [ "api" ]
-        }, {
-          "name" : "Test02 - Add Team And Verify",
-          "uid" : "96d9741fb7d65698",
-          "parentUid" : "dc43bd6f2f48ae6031f6b1098e92a36c",
-          "status" : "passed",
-          "time" : {
-            "start" : 1637583662799,
-            "stop" : 1637583662999,
-            "duration" : 200
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "newPassed" : false,
-          "newBroken" : false,
-          "retriesCount" : 0,
-          "retriesStatusChange" : false,
-          "parameters" : [ "api" ]
-        }, {
-          "name" : "Test03 - Update Team And Verify",
-          "uid" : "ecb6235c1585f373",
-          "parentUid" : "dc43bd6f2f48ae6031f6b1098e92a36c",
-          "status" : "passed",
-          "time" : {
-            "start" : 1637583663015,
-            "stop" : 1637583663288,
-            "duration" : 273
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "newPassed" : false,
-          "newBroken" : false,
-          "retriesCount" : 0,
-          "retriesStatusChange" : false,
-          "parameters" : [ "api" ]
-        }, {
-          "name" : "Test04 - Delete Team And Verify",
-          "uid" : "50f31f19a480f635",
-          "parentUid" : "dc43bd6f2f48ae6031f6b1098e92a36c",
-          "status" : "passed",
-          "time" : {
-            "start" : 1637583663299,
-            "stop" : 1637583663434,
-            "duration" : 135
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "newPassed" : false,
-          "newBroken" : false,
-          "retriesCount" : 0,
-          "retriesStatusChange" : false,
-          "parameters" : [ "api" ]
-        } ],
-        "uid" : "dc43bd6f2f48ae6031f6b1098e92a36c"
-      }, {
         "name" : "sanity.GrafanaWeb",
         "children" : [ {
           "name" : "Test01 - Verify Header",
-          "uid" : "9deed6ab16683005",
+          "uid" : "3482ff272a7ef3fd",
           "parentUid" : "c5b0eafa658485fa3314b91a9998509c",
-          "status" : "passed",
+          "status" : "failed",
           "time" : {
-            "start" : 1637583667650,
-            "stop" : 1637583669847,
-            "duration" : 2197
+            "start" : 1639962532308,
+            "stop" : 1639962535835,
+            "duration" : 3527
           },
           "flaky" : false,
-          "newFailed" : false,
+          "newFailed" : true,
           "newPassed" : false,
           "newBroken" : false,
           "retriesCount" : 0,
@@ -135,13 +25,13 @@
           "parameters" : [ "web" ]
         }, {
           "name" : "Test02 - Verify Default users",
-          "uid" : "c7a0bf8d638dc987",
+          "uid" : "70e63854b51b322b",
           "parentUid" : "c5b0eafa658485fa3314b91a9998509c",
           "status" : "passed",
           "time" : {
-            "start" : 1637583670134,
-            "stop" : 1637583670931,
-            "duration" : 797
+            "start" : 1639962536140,
+            "stop" : 1639962536908,
+            "duration" : 768
           },
           "flaky" : false,
           "newFailed" : false,
@@ -152,13 +42,13 @@
           "parameters" : [ "web" ]
         }, {
           "name" : "Test03 - Verify New User",
-          "uid" : "43d64c51c6217108",
+          "uid" : "8094e2ad0c330189",
           "parentUid" : "c5b0eafa658485fa3314b91a9998509c",
           "status" : "passed",
           "time" : {
-            "start" : 1637583671239,
-            "stop" : 1637583673324,
-            "duration" : 2085
+            "start" : 1639962537135,
+            "stop" : 1639962539228,
+            "duration" : 2093
           },
           "flaky" : false,
           "newFailed" : false,
@@ -169,13 +59,13 @@
           "parameters" : [ "web" ]
         }, {
           "name" : "Test04 - Verify User Deletion",
-          "uid" : "62b6d5ea35ab08ca",
+          "uid" : "cf25910e1617fee9",
           "parentUid" : "c5b0eafa658485fa3314b91a9998509c",
           "status" : "passed",
           "time" : {
-            "start" : 1637583673590,
-            "stop" : 1637583675091,
-            "duration" : 1501
+            "start" : 1639962539487,
+            "stop" : 1639962540867,
+            "duration" : 1380
           },
           "flaky" : false,
           "newFailed" : false,
@@ -186,13 +76,13 @@
           "parameters" : [ "web" ]
         }, {
           "name" : "Test05 - Verify Progress Steps",
-          "uid" : "557d7dc4af66f361",
+          "uid" : "6d988cd42b722142",
           "parentUid" : "c5b0eafa658485fa3314b91a9998509c",
           "status" : "passed",
           "time" : {
-            "start" : 1637583675366,
-            "stop" : 1637583675568,
-            "duration" : 202
+            "start" : 1639962541125,
+            "stop" : 1639962541375,
+            "duration" : 250
           },
           "flaky" : false,
           "newFailed" : false,
@@ -203,30 +93,30 @@
           "parameters" : [ "web" ]
         }, {
           "name" : "Test06 - Verify Avatar Icon",
-          "uid" : "4ad18e47dcfd3aa0",
+          "uid" : "22ad526910a09610",
           "parentUid" : "c5b0eafa658485fa3314b91a9998509c",
           "status" : "passed",
           "time" : {
-            "start" : 1637583675809,
-            "stop" : 1637583676821,
-            "duration" : 1012
+            "start" : 1639962541580,
+            "stop" : 1639962542439,
+            "duration" : 859
           },
           "flaky" : false,
           "newFailed" : false,
-          "newPassed" : true,
+          "newPassed" : false,
           "newBroken" : false,
           "retriesCount" : 0,
           "retriesStatusChange" : false,
           "parameters" : [ "web" ]
         }, {
           "name" : "Test07 - Search Users",
-          "uid" : "23fd0b7c974a0a7f",
+          "uid" : "2beb74dacb3f43cc",
           "parentUid" : "c5b0eafa658485fa3314b91a9998509c",
           "status" : "passed",
           "time" : {
-            "start" : 1637583677067,
-            "stop" : 1637583680621,
-            "duration" : 3554
+            "start" : 1639962542693,
+            "stop" : 1639962546159,
+            "duration" : 3466
           },
           "flaky" : false,
           "newFailed" : false,
@@ -237,13 +127,13 @@
           "parameters" : [ "web", "admin", "exist" ]
         }, {
           "name" : "Test07 - Search Users",
-          "uid" : "b47904c24f345797",
+          "uid" : "c74995ab6db9a0da",
           "parentUid" : "c5b0eafa658485fa3314b91a9998509c",
           "status" : "passed",
           "time" : {
-            "start" : 1637583680852,
-            "stop" : 1637583693899,
-            "duration" : 13047
+            "start" : 1639962546387,
+            "stop" : 1639962559312,
+            "duration" : 12925
           },
           "flaky" : false,
           "newFailed" : false,
@@ -254,17 +144,17 @@
           "parameters" : [ "web", "John", "not-exist" ]
         }, {
           "name" : "Test07 - Search Users",
-          "uid" : "dd1128c7a3b821",
+          "uid" : "801a01d7fa80fe67",
           "parentUid" : "c5b0eafa658485fa3314b91a9998509c",
           "status" : "passed",
           "time" : {
-            "start" : 1637583694164,
-            "stop" : 1637583706572,
+            "start" : 1639962559632,
+            "stop" : 1639962572040,
             "duration" : 12408
           },
           "flaky" : false,
           "newFailed" : false,
-          "newPassed" : true,
+          "newPassed" : false,
           "newBroken" : false,
           "retriesCount" : 0,
           "retriesStatusChange" : false,

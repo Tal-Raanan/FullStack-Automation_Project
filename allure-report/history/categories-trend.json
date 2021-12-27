@@ -1,40 +1,13 @@
 [ {
-  "buildOrder" : 30,
-  "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/30/allure",
-  "reportName" : "AllureReport",
-  "data" : { }
-}, {
-  "buildOrder" : 29,
-  "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/29/allure",
+  "buildOrder" : 41,
+  "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/41/allure",
   "reportName" : "AllureReport",
   "data" : {
-    "Product defects" : 2,
-    "Test defects" : 1
+    "Product defects" : 1
   }
 }, {
-  "buildOrder" : 28,
-  "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/28/allure",
-  "reportName" : "AllureReport",
-  "data" : { }
-}, {
-  "buildOrder" : 26,
-  "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/26/allure",
-  "reportName" : "AllureReport",
-  "data" : {
-    "Product defects" : 1,
-    "Test defects" : 3
-  }
-}, {
-  "buildOrder" : 25,
-  "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/25/allure",
-  "reportName" : "AllureReport",
-  "data" : {
-    "Product defects" : 1,
-    "Test defects" : 3
-  }
-}, {
-  "buildOrder" : 24,
-  "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/24/allure",
+  "buildOrder" : 40,
+  "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/40/allure",
   "reportName" : "AllureReport",
   "data" : { }
 } ]

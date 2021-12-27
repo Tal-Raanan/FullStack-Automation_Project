@@ -30,6 +30,8 @@ public class Verifications extends CommonOps {
         softAssert.assertAll("Some elements were not displayed");
     }
 
+    // Using Sikulix
+    // <ImageRepo> = C:\\Automation\\Final_Project\\ImageRepository\\
     @Step("Verify Element Visually")
     public static void visualElement(String expectedImageName){
         try {

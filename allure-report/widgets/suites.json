@@ -4,12 +4,12 @@
     "uid" : "3ee6c328cd13b7bf8cf2e1560d3cdfae",
     "name" : "Web Suite",
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 15,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 15
+      "total" : 9
     }
   } ]
 }

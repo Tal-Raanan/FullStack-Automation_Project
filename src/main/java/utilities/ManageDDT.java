@@ -10,16 +10,16 @@ import java.util.List;
 public class ManageDDT extends CommonOps{
 
     // Method Name: getDataObject
-    // Method Description: This method provides the data from <DDTFile> (Configuration/DataConfig.xml)
+    // Method Description: This method provides the data from <DDTFile> (DDTFiles/users.csv)
     // Method Parameters: None
     // Method Return: Object[][] (file)
     @DataProvider(name = "data-provider-users")
     public Object[][] getDataObject(){
-        return getDataFromCSV(getData("DDTFile"));
+        return getDataFromCSV(getData("DDTFile")); // <DDTFile> = ./DDTFiles/users.csv
     }
 
     // Method Name: readCSV
-    // Method Description: This method reads the lines from a csv file
+    // Method Description: This method reads lines from a csv file
     // Method Parameters: String
     // Method Return: List<String>
     public static List<String> readCSV(String csvFile){
